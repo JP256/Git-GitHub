@@ -64,7 +64,8 @@ git checkout HEAD~2
 git checkout head dog.txt cat.txt -> delete changes no commited
 git checkout -- dog.txt 
 
-
+// git restore: helps to unstage or even discard uncommited local changes
+// undo git add .
 git restore 1.txt          --> remove new changes from working directory 
 git restore --staged 1.txt --> remove changes from staged area
 git restore --source head~1 1.txt
@@ -77,4 +78,9 @@ git reset --hard head~1
 
 // doesn't delete history
 git revert 343dfdf -> goes back and create a new commit, with the old information, it doesnt delete the history
+
+//////////// GitHub
+git clone https://... -> initialize a new repo on your machine
+
+
 
