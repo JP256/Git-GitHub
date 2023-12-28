@@ -57,3 +57,4 @@ git stash clear
 
 // undoing changes and time traveling
 git checkout d8812d
+git checkout master
