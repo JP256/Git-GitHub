@@ -63,9 +63,7 @@ git checkout HEAD~2
 
 git checkout head dog.txt cat.txt -> delete changes no commited
 git checkout -- dog.txt 
-git checkout head dog.txt 
-
-git restore dog.txt
-git restore --source heade~2 1.txt
 
 
+git restore 1.txt          --> remove new changes from working directory 
+git restore --source head~1 1.txt
