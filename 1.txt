@@ -12,14 +12,32 @@ more stuffs
 more stuffs
 /////////////////////////////////
 git status
+git log 
+git log --oneline
+git log --abbrev-commit
 git init
 git add .
 git add 1.txt 2.txt
 git commit -m "first commit"
 git commit --amend 
+git commit -a -m "second commit"
+
+git branch 
+git branch firstB
+git switch firstB
+git switch -c secondB
+git checkout firstB
+git checkout -b thirdB
+git branch -d secondB
+git branch -D secondB
+git branch -m newName
+git branch -v
+
+git merge secondBToMaster
 
 git diff           -> working dir and staged area
 git diff --staged  -> staged area and repo
 git diff head      -> everything that is not in repo
 git diff branch1..branch2
 git diff commit1..commit2
+
