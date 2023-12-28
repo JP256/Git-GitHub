@@ -41,3 +41,19 @@ git diff head      -> everything that is not in repo
 git diff branch1..branch2
 git diff commit1..commit2
 
+
+// we do this when you dont want to commit yet, we 
+// save the changes into the stash and open another branch
+// and paste it there, play with it and then go back and commit
+egit stash        -> working dir and stageing area to stash
+git stash save
+git stash pop
+git stash apply
+git statsh pply stash@{2}
+git stash list
+git stash drop stash@{2}
+git stash clear
+
+
+// undoing changes and time traveling
+git checkout d8812d
