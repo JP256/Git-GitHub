@@ -72,7 +72,7 @@ git restore --source head~1 1.txt
 
 
 // delete history
-git reset 343rdr2  -> remove a commit
+git reset 343rdr2  -> remove the following commit until the selected one
 git reset --hard 3223dsf -> remove remove commit and changes from working directory
 git reset --hard head~1
 
@@ -81,3 +81,21 @@ git revert 343dfdf -> goes back and create a new commit, with the old informatio
 
 //////////// GitHub
 git clone https://... -> initialize a new repo on your machine
+
+there are two ways of using GitHub
+1. create a repo in github and clone it to your local computer
+2. create a local project, create a github project and connect them
+
+git remote -v
+git remote add origin https://...
+git remote rename old new
+git remote remove name
+
+git push remoteName branchName
+git push origin master
+git push origin pancake:master 
+git push -u 
+git push -u origin master
+
+git branch -r 
+git push origin main 
