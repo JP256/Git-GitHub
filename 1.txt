@@ -81,6 +81,3 @@ git revert 343dfdf -> goes back and create a new commit, with the old informatio
 
 //////////// GitHub
 git clone https://... -> initialize a new repo on your machine
-
-
-
