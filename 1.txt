@@ -56,5 +56,12 @@ git stash clear
 
 
 // undoing changes and time traveling
-git checkout d8812d
-git checkout master
+git checkout d8812d   -> trveling in time
+git checkout master   -> to go back
+git checkout HEAD~1
+git checkout HEAD~2
+
+git checkout head dog.txt cat.txt -> delete changes no commited
+git checkout -- dog.txt 
+
+
