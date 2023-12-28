@@ -10,3 +10,16 @@ more stuffs
 more stuffs
 more stuffs
 more stuffs
+/////////////////////////////////
+git status
+git init
+git add .
+git add 1.txt 2.txt
+git commit -m "first commit"
+git commit --amend 
+
+git diff           -> working dir and staged area
+git diff --staged  -> staged area and repo
+git diff head      -> everything that is not in repo
+git diff branch1..branch2
+git diff commit1..commit2
