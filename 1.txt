@@ -75,6 +75,6 @@ git reset 343rdr2  -> remove a commit
 git reset --hard 3223dsf -> remove remove commit and changes from working directory
 git reset --hard head~1
 
-// doesnt delete history
+// doesn't delete history
 git revert 343dfdf -> goes back and create a new commit, with the old information, it doesnt delete the history
 
