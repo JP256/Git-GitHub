@@ -66,4 +66,7 @@ git checkout -- dog.txt
 
 
 git restore 1.txt          --> remove new changes from working directory 
+git restore --staged 1.txt --> remove changes from staged area
 git restore --source head~1 1.txt
+
+
