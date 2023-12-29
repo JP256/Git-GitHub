@@ -103,4 +103,5 @@ git checkout --track origin/food
 
 git checkout origin/master
 ...
-more more more comments
+git fetch origin main   -> get data from remote and commit it
+git pull origin main
