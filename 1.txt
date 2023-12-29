@@ -67,7 +67,7 @@ git reset --hard head~1
 // doesn't delete history
 git revert 343dfdf -> goes back and create a new commit, with the old information, it doesnt delete the history
 
-//////////// GitHub
+////// GitHub
 git clone https://... -> initialize a new repo on your machine
 
 there are two ways of using GitHub
