@@ -107,3 +107,11 @@ git fetch origin main   -> get data from remote and commit it
 git pull origin main
 adding more information
 more stuffs by jp
+
+git rebase main
+
+two types of tags
+light wight just the label
+annotated tag 
+
+git reflog
