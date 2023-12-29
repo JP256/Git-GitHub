@@ -91,6 +91,13 @@ git checkout --track origin/food
 
 git checkout origin/master
 ...
+git push
+git fetch
+git merge
+
+git pull 
+git pull bring the changes, and it is a git fetch and git merge, updating your repo
+git fetch   -> just informs you that there are changes, it doesnt bring you changes, once you do git fetch, in order to bring the changes you have to git merge 
 git fetch origin main   -> get data from remote and commit it
 git pull origin main
 adding more information
