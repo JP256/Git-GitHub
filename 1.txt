@@ -1,16 +1,4 @@
-testing 
-testing 
-testing 
-testing 
-
-//////////////////////////////////
-generating conflicts
-more stuffs
-more stuffs
-more stuffs
-more stuffs
-more stuffs
-/////////////////////////////////
+// GIT COMMANDS
 git status
 git log 
 git log --oneline
@@ -115,3 +103,4 @@ light wight just the label
 annotated tag 
 
 git reflog
+
